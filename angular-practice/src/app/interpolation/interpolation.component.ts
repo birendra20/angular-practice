@@ -24,3 +24,22 @@ export class InterpolationComponent implements OnInit {
     return 'we are using methods ' + this.name;
   }
 }
+
+//with interpolation you can bind data from the class to the template
+//and the syntax is {{}}
+
+//with interpolation you can bind data from the
+// class to the template and the syntax is
+// double curly braces and within the
+// double curly braces you have a property
+// or an expression so you can evaluate any
+// JavaScript expression and the result
+// will be displayed in the browser you can
+// also perform string concatenation you
+// can use JavaScript properties and
+// methods as well you can even call
+// methods that you have defined in the
+// components class within interpolation
+// however you cannot perform assignments
+// or access global JavaScript variables
+// with interpolation all right that's
